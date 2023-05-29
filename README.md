@@ -1,2 +1,2 @@
 # LibraryMangamentSystem
-The code is in the C language with input Books
+The code is in the Python language with input Books
