@@ -1,5 +1,5 @@
 class Library:
-    def __init__(self, listofBooks):
+    def __init__(self, listofBooks): #use double underscores at init
         self.books = listofBooks
 
     def displayAvailableBooks(self):
@@ -45,7 +45,7 @@ class Student():
         return self.book
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #use double underscores at init
 
     SRMlibrary = Library(
         ["C++", "PYHTON", "DAA", "Data strutures", "C", "Java","Java Script","Php","Operting system"])
