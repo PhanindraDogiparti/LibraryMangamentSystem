@@ -47,7 +47,7 @@ class Student():
 
 if __name__ == "__main__": #use double underscores at init
 
-    SRMlibrary = Library(
+    Yourlibrary = Library(
         ["C++", "PYHTON", "DAA", "Data strutures", "C", "Java","Java Script","Php","Operting system"])
     student = Student()
     track = []
@@ -61,14 +61,14 @@ if __name__ == "__main__": #use double underscores at init
             usr_response = int(input("Enter your choice: "))
 
             if usr_response == 1:  # listing
-                SRMlibrary.displayAvailableBooks()
+                Yourlibrary.displayAvailableBooks()
             elif usr_response == 2:  # borrow
-                SRMlibrary.borrowBook(
+                Yourlibrary.borrowBook(
                     input("Enter your name: "), student.requestBook())
             elif usr_response == 3:  # return
-                SRMlibrary.returnBook(student.returnBook())
+                Yourlibrary.returnBook(student.returnBook())
             elif usr_response == 4:  # donate
-                SRMlibrary.donateBook(student.donateBook())
+                Yourlibrary.donateBook(student.donateBook())
             elif usr_response == 5:  # track
                 for i in track:
                     for key, value in i.items():
